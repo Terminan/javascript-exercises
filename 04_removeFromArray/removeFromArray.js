@@ -12,6 +12,7 @@ const removeFromArray = function(array, ...removals) {
             newArray.push(array[i]);
         }
     }
+    return newArray;
 };
 
 // Do not edit below this line
