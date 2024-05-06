@@ -1,6 +1,6 @@
 const sumAll = function(int1, int2) {
     if (typeof int1 === "number" && typeof int2 === "number") {
-        if (!int1 < 0 || !int2 < 0) {
+        if (int1 > 0 && int2 > 0) {
             let array = [];
             let sum = 0;
             if (int1 < int2) {
